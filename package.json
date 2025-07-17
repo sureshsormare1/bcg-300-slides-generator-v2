@@ -1,0 +1,47 @@
+{
+  "name": "bcg-300-slides-generator",
+  "version": "1.0.0",
+  "description": "BCG-level 297-slide presentation generator with 0% deviation from structure. Professional consulting-grade presentations with modular architecture.",
+  "main": "generate-300-slides.js",
+  "scripts": {
+    "generate": "node generate-300-slides.js",
+    "serve": "python3 -m http.server 8082",
+    "dev": "node generate-300-slides.js && python3 -m http.server 8082",
+    "test": "node test/test-generator.js",
+    "clean": "rm -rf output/*",
+    "build": "npm run clean && npm run generate"
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "chart.js": "^3.9.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/bcg-300-slides-generator.git"
+  },
+  "keywords": [
+    "presentation", 
+    "bcg", 
+    "slides", 
+    "trade-intelligence", 
+    "consulting", 
+    "business-intelligence",
+    "data-visualization",
+    "market-analysis"
+  ],
+  "author": "Manus AI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/bcg-300-slides-generator/issues"
+  },
+  "homepage": "https://github.com/your-username/bcg-300-slides-generator#readme"
+}
+

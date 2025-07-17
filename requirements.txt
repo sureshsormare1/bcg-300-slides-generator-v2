@@ -1,0 +1,42 @@
+# Python Requirements for BCG 297-Slide Presentation Generator
+# This file lists Python dependencies used for serving and optional features
+
+# Core Python (built-in modules used)
+# - http.server (built-in) - for serving presentations locally
+# - json (built-in) - for data processing
+# - os (built-in) - for file operations
+# - sys (built-in) - for system operations
+
+# Optional Python packages for enhanced functionality
+# Uncomment and install if you need these features:
+
+# For advanced data processing and analysis
+# pandas>=1.5.0
+# numpy>=1.21.0
+
+# For PDF generation (if implementing PDF export)
+# reportlab>=3.6.0
+# weasyprint>=56.0
+
+# For image processing (if implementing image generation)
+# Pillow>=9.0.0
+
+# For web scraping (if implementing data collection)
+# requests>=2.28.0
+# beautifulsoup4>=4.11.0
+
+# For Excel/CSV processing (if implementing data import/export)
+# openpyxl>=3.0.0
+
+# For advanced charting (if implementing server-side chart generation)
+# matplotlib>=3.5.0
+# plotly>=5.10.0
+
+# For API development (if implementing REST API)
+# flask>=2.2.0
+# fastapi>=0.85.0
+
+# Note: This project primarily uses Node.js dependencies (see package.json)
+# Python is only used for the built-in http.server module
+# No additional Python packages are required for basic functionality
+
